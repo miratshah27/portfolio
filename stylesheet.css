@@ -140,3 +140,15 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.research-image {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  transform: perspective(800px) rotateY(5deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.research-image:hover {
+  transform: perspective(800px) rotateY(0deg);
+  box-shadow: 0 15px 20px -3px rgba(0, 0, 0, 0.3), 0 6px 8px -2px rgba(0, 0, 0, 0.15);
+}
